@@ -1,0 +1,8 @@
+class Main {
+  public static void main(String[] args) {
+    int first = 152;
+    double second = 2.143;
+    String third = "Intelligent Systems";
+    System.out.println(first + " " + second + " " + third);
+  }
+}
