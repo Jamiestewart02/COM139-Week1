@@ -1,0 +1,16 @@
+class Main {
+  public static void main(String[] args) {
+  
+		int pin = 12345;
+
+		System.out.println("BANK OF ULSTER UNIVERSITY.");
+		int entry = Console.getInt("ENTER YOUR PIN: ");
+
+		while ( entry != pin ){
+			System.out.println("\nINCORRECT PIN. TRY AGAIN.");
+			entry = Console.getInt("ENTER YOUR PIN: ");
+		}
+
+		System.out.println("\nPIN ACCEPTED. YOU NOW HAVE ACCESS TO YOUR ACCOUNT.");
+  }
+}
