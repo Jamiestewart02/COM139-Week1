@@ -1,0 +1,18 @@
+class Main {
+  public static void main(String[] args) {
+int counter = 0;
+        int num = Console.getInt("Please enter the desired number ");
+        // Checks if the user has entered a number that is not greater than 12
+        while ((num > 12) || (num <= 0)) {
+            num = Console.getInt("Please a number above 0 and below 13 ");
+        // Carry's out the multiplication
+        } while (counter < 12) {
+            counter = counter + 1;
+            int Time_Table = num * counter;
+            System.out.println(String.format(num + " * " + counter + " = " + "%2d",Time_Table));
+        }
+
+    }
+
+
+  }
